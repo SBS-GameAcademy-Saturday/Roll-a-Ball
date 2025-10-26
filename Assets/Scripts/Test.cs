@@ -5,6 +5,7 @@ public class Test : MonoBehaviour
 {
     private void Awake()
     {
+        Debug.Log("Hello World");
         Debug.Log($"On Awake + {gameObject.name}");
     }
 
